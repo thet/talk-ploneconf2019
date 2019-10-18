@@ -1,0 +1,93 @@
+body,
+.reveal,
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    color: white;
+}
+.reveal {
+  font-size: 5vh;
+}
+
+.reveal pre,
+.reveal pre code {
+    box-sizing: border-box;
+}
+.reveal pre {
+    box-shadow: none;
+    display: block;
+    margin: 1em auto;
+    text-align: center;
+    width: 90vw;
+    height: 84vh;
+}
+.reveal pre code {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 2em;
+    text-align: left;
+}
+
+.reveal a {
+    color: white;
+    text-decoration: underline;
+}
+section[data-background="yellow"],
+section[data-background="yellow"] a {
+    color: black;
+}
+
+.slides {
+    background-image: url('./imgs/programmatic-logo-w-200.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+h1 {
+  line-height: 1em;
+}
+
+
+.cover h1, .cover h2 {
+    text-align: right;
+}
+.cover h3, .cover p {
+    text-align: left;
+}
+
+.top { top: 2em; }
+.reveal h2 { margin-bottom: 1em; }
+.reveal h3 { margin-bottom: 1em; }
+
+.reveal li {
+    text-align: center;
+    list-style: none;
+    margin: 0 0 0.8em 0;
+}
+.reveal .huge li {
+    font-size: 2.11em;
+}
+
+iframe {
+    margin: 0;
+    border: none;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.reveal section img {
+     border: none;
+     box-shadow: none;
+     background: none;
+}

@@ -1,4 +1,17 @@
 
+In the past I adopted the use of Plone tiles and block layouts in a project instead of crafting full-featured page templates for sites and complex Diazo rules.
+Due to the usual project constraints (budget, scope, expertise) we couldn't adopt any of the since then already available JavaScript frontend technologies.
+But still, using Plone tiles was a big step forward!
+I still wished to be able to use a well defined REST library like plone.restapi for my endpoints for Mockup instead of writing them my own.
+
+For a recent project I didn't want to repeat myself here again. With some Vue.js development experience as background and a strong believe that plone.restapi is hugely important for the future of Plone I switched technologies in a very time and budget constrained project after the first prototype was finished. Because of these unrealistic project parameters, it already didn't matter anyways.
+
+I can't say if it was a good or bad decision. It certainly didn't help the project to finish in time. The project finished in a time which would have been initially acceptable for the projects' scope. But it helped me to better understand the whole framework and come forward. And it gives the user a really nice and snappy user experience.
+
+Now it's ready, see here. Forgive me for unfinished stylings. The functionality is what matters!
+
+
+
 vue 3
 nuxt
 cookbook,

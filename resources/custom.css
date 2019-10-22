@@ -38,10 +38,23 @@ body {
     text-align: left;
 }
 
+.reveal code {
+  background: lightgrey;
+  border-radius: 0.5em;
+  padding: 0.1em;
+  margin: 0 0.1em;
+}
+
 .reveal a {
     color: white;
-    text-decoration: underline;
 }
+.reveal a::before {
+    content: '➔';
+    margin-right: 0.5em;
+}
+
+section:not([data-background]),
+section:not([data-background]) a,
 section[data-background="yellow"],
 section[data-background="yellow"] a {
     color: black;

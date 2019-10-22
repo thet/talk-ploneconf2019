@@ -11,7 +11,7 @@
 - programmatic
 - BlueDynamics Alliance Memeber
 - Former Plone Framework Team Member
-- Since 09/2019: Syslab.com
+- Since recently: Syslab.com
 
 
 <!-- .slide: data-background="darkgreen" -->
@@ -30,38 +30,175 @@
 <!-- .slide: data-background="yellow" -->
 # About Vue
 
+An overview
+
 
 <!-- .slide: data-background="yellow" -->
 ## What is it
 
-- Vue is a component based JavaScript library.
-- Can substitue all your views.
-- State handling via vuex.
-- Routing via vue-router.
+
+<!-- .slide: data-background="yellow" -->
+it's Vue.js, not Vue.
+
+_But I'll call it Vue._ <!-- .element: class="fragment" -->
 
 
 <!-- .slide: data-background="yellow" -->
-## Vue ecosystem
+It's pronounced like "View".
 
-- Vuex
-- vue-router
-- Vuetify
-- Nuxt
+_But I say Wue, sorry._ <!-- .element: class="fragment" -->
 
 
 <!-- .slide: data-background="yellow" -->
-## Vue resources
-
-- Vue guide (must read)
-- API documentation
-- Guide and API docs in ecosystem libraries.
-- Video courses
+## What is it
 
 
 <!-- .slide: data-background="yellow" -->
-## Vue resources /2
+Frontend JavaScript library.
 
-- ...
+
+<!-- .slide: data-background="yellow" -->
+- Reactive
+- Component based
+- Lifecycle Hooks
+- Good Documentation
+
+
+<!-- .slide: data-background="yellow" -->
+- Performant
+- Small
+- Extensible
+
+
+<!-- .slide: data-background="yellow" -->
+Vue can substitue all your views
+
+
+<!-- .slide: data-background="yellow" -->
+## A simple Example
+
+
+<!-- .slide: data-background="yellow" -->
+### Entry point
+
+TODO: Example code
+
+
+<!-- .slide: data-background="yellow" -->
+### Component
+
+TODO: Example code
+
+
+<!-- .slide: data-background="yellow" -->
+## The Vue ecosystem
+
+
+<!-- .slide: data-background="yellow" -->
+### Vuex
+
+
+<!-- .slide: data-background="yellow" -->
+- Library implementing the state management pattern known by Flux/Redux
+- Vue has a one-directional dataflow, like React
+- Vuex allows unidirectional data flows by utilizing a central datastore
+- Components using vuex get notified by updates
+
+
+<!-- .slide: data-background="yellow" -->
+- Enforces a strict protocol on how to acceess/update data
+- Data is stored in ``state``
+- Accessed via ``state`` or ``getters``
+- Asynchronous operations are ``dispatch``ed
+- Data manipulation is ``commit``ed
+
+
+<!-- .slide: data-background="yellow" -->
+TODO: Example code
+
+
+<!-- .slide: data-background="yellow" -->
+### vue-router
+
+
+<!-- .slide: data-background="yellow" -->
+- If your app serves different URL paths, you need a router.
+- vue-router defines different entry points to views/components for different URLs
+
+
+<!-- .slide: data-background="yellow" -->
+TODO: Example code
+
+
+<!-- .slide: data-background="yellow" -->
+### vuetify
+
+- Vuetify is a UI library for vue
+- There are a lot out there (e.g. Semantic UI for Vue)
+- Vuetify is probably the best maintained and popular one
+
+
+<!-- .slide: data-background="yellow" -->
+https://vuetifyjs.com/en/
+
+
+<!-- .slide: data-background="yellow" -->
+TODO: Show Website
+https://vuetifyjs.com/en/components/api-explorer
+
+
+<!-- .slide: data-background="yellow" -->
+### nuxt
+
+
+<!-- .slide: data-background="yellow" -->
+NuxtJS is a Vue framework.
+
+
+<!-- .slide: data-background="yellow" -->
+It gives you:
+
+- Server Side Rendering (SSR)
+- Static site generation
+- Pre-defined configuration
+- Best-Practice Project Layout
+- Automatic code splitting
+
+
+<!-- .slide: data-background="yellow" -->
+You should consider using it!
+
+_But I don't_ <!-- .element: class="fragment" -->
+
+
+<!-- .slide: data-background="yellow" -->
+## Read this!
+
+
+<!-- .slide: data-background="yellow" -->
+The Vue guide (a must read)
+
+https://vuejs.org/v2/guide
+
+
+<!-- .slide: data-background="yellow" -->
+Vue API documentation
+
+https://vuejs.org/v2/api/
+
+
+<!-- .slide: data-background="yellow" -->
+Vuex Guide
+
+https://vuex.vuejs.org/guide/
+
+
+<!-- .slide: data-background="yellow" -->
+Router Guide
+
+https://vuex.vuejs.org/guide/
+
+
 
 
 <!-- .slide: data-background="green" -->

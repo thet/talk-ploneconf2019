@@ -206,25 +206,34 @@ https://vuex.vuejs.org/guide/
 
 
 <!-- .slide: data-background="green" -->
-## Scope
-
-Organization to help organizations and individuals as victims in defamtion cases.
+Organization to help victims in defamation cases.
 
 
 <!-- .slide: data-background="green" -->
-## Structure
+Offline Space
+Online Space
 
-- TODO: Skizze
+
+<!-- .slide: data-background="green" -->
+A case is described,
+analysed,
+strategies are developed,
+actions defined
+and finally evaluated.
+
+
+<!-- .slide: data-background="green" -->
+Roles:
 
 - Clients
 - Coordinators
 - Experts
-- Offline Spaces
-- Online Spaces
 
 
 <!-- .slide: data-background="green" -->
 ## More Info
+
+https://empower-net.at/
 
 
 
@@ -232,10 +241,9 @@ Organization to help organizations and individuals as victims in defamtion cases
 # Online Platform
 
 
-## Status Quo / Existing Projects / Environment Analsis
+## Environment Analysis
 
-- A few tools available
-- Non which fit our user stories
+A few tools available, none fit our use case
 
 
 ## Why Plone
@@ -249,15 +257,8 @@ Organization to help organizations and individuals as victims in defamtion cases
 
 ## Why Vue
 
-- First Draft: Page Templates, Tiles, Content Providers
-- Other Vue projects in the works
-- Bored with ever same old approach
-
-
-## Why Vue /2
-
-- Good decision?
-
+- Existing experience
+- Experiment with new approach
 
 
 

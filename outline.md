@@ -27,6 +27,68 @@
 
 
 
+<!-- .slide: data-background="green" -->
+# Project "Empower Net"
+
+
+<!-- .slide: data-background="green" -->
+Organization to help victims in defamation cases.
+
+
+<!-- .slide: data-background="green" -->
+Offline Space
+Online Space
+
+
+<!-- .slide: data-background="green" -->
+A case is described,
+analysed,
+strategies are developed,
+actions defined
+and finally evaluated.
+
+
+<!-- .slide: data-background="green" -->
+Roles:
+
+- Clients
+- Coordinators
+- Experts
+
+
+<!-- .slide: data-background="green" -->
+## More Info
+
+https://empower-net.at/
+
+
+
+
+# Online Platform
+
+
+## Environment Analysis
+
+A few tools available, none fit our use case
+
+
+## Why Plone
+
+- Fine grained security
+- Powerful workflows
+- Hierarchical content
+- Instance behaviors (actually not used)
+- Own experience
+
+
+## Why Vue
+
+- Existing experience
+- Experiment with new approach
+
+
+
+
 <!-- .slide: data-background="yellow" -->
 # About Vue
 
@@ -197,68 +259,6 @@ https://vuex.vuejs.org/guide/
 Router Guide
 
 https://vuex.vuejs.org/guide/
-
-
-
-
-<!-- .slide: data-background="green" -->
-# Project "Empower Net"
-
-
-<!-- .slide: data-background="green" -->
-Organization to help victims in defamation cases.
-
-
-<!-- .slide: data-background="green" -->
-Offline Space
-Online Space
-
-
-<!-- .slide: data-background="green" -->
-A case is described,
-analysed,
-strategies are developed,
-actions defined
-and finally evaluated.
-
-
-<!-- .slide: data-background="green" -->
-Roles:
-
-- Clients
-- Coordinators
-- Experts
-
-
-<!-- .slide: data-background="green" -->
-## More Info
-
-https://empower-net.at/
-
-
-
-
-# Online Platform
-
-
-## Environment Analysis
-
-A few tools available, none fit our use case
-
-
-## Why Plone
-
-- Fine grained security
-- Powerful workflows
-- Hierarchical content
-- Instance behaviors (actually not used)
-- Own experience
-
-
-## Why Vue
-
-- Existing experience
-- Experiment with new approach
 
 
 

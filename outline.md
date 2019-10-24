@@ -141,15 +141,23 @@ Vue can substitue all your views
 
 
 <!-- .slide: data-background="yellow" -->
-### Entry point
+Install Vue CLI - https://cli.vuejs.org/
 
-TODO: Example code
+``yarn add @vue/cli``
 
 
 <!-- .slide: data-background="yellow" -->
-### Component
+Create a project:
 
-TODO: Example code
+``vue create simple-example``
+
+
+<!-- .slide: data-background="yellow" -->
+[src/main.js](./simple-example/src/main.js)
+
+[src/App.vue](./simple-example/src/App.vue)
+
+[src/components/HelloWorld.vue](./simple-example/src/components/HelloWorld.vue)
 
 
 <!-- .slide: data-background="yellow" -->
@@ -161,22 +169,45 @@ TODO: Example code
 
 
 <!-- .slide: data-background="yellow" -->
-- Library implementing the state management pattern known by Flux/Redux
-- Vue has a one-directional dataflow, like React
-- Vuex allows unidirectional data flows by utilizing a central datastore
-- Components using vuex get notified by updates
+- Central data store
+- Flux/Redux state management pattern
+- Reactivity, inter-component data exchange
 
 
 <!-- .slide: data-background="yellow" -->
-- Enforces a strict protocol on how to acceess/update data
 - Data is stored in ``state``
 - Accessed via ``state`` or ``getters``
 - Asynchronous operations are ``dispatch``ed
 - Data manipulation is ``commit``ed
 
 
-<!-- .slide: data-background="yellow" -->
-TODO: Example code
+<!-- .slide: class="full" data-background="yellow" -->
+```
+import Vuex from "vuex";
+
+export default new Vuex.Store({
+  state: {
+    name: ''
+  },
+  getters: {
+    name_uppercase(state) {
+      return state.name.toUpperCase()
+    }
+  },
+  actions: {
+    async GET_NAME({ commit }) {
+        let repsponse = await fetch('https://my.webservice/get_name');
+        commit('SET_NAME', { value: response.data })'
+        return response.data;
+    }
+  },
+  mutations: {
+    SET_NAME(state, { value }) {
+      state.name = value;
+    }
+  }
+});
+```
 
 
 <!-- .slide: data-background="yellow" -->
@@ -184,29 +215,52 @@ TODO: Example code
 
 
 <!-- .slide: data-background="yellow" -->
-- If your app serves different URL paths, you need a router.
-- vue-router defines different entry points to views/components for different URLs
+Different URLs to different views
 
 
-<!-- .slide: data-background="yellow" -->
-TODO: Example code
+<!-- .slide: class="full" data-background="yellow" -->
+```
+import Router from 'vue-router';
+import Home from '@/views/Home.vue';
+import About from '@/views/About.vue';
+import Vue from 'vue';
+
+Vue.use(Router);
+
+export default new Router({
+  mode: 'history',
+  routes: [
+    {
+      path: "/",
+      name: "home",
+      component: Home
+    },
+    {
+      path: "/about",
+      name: "about",
+      component: About
+    }
+  ]
+});
+
+```
 
 
 <!-- .slide: data-background="yellow" -->
 ### vuetify
 
-- Vuetify is a UI library for vue
-- There are a lot out there (e.g. Semantic UI for Vue)
-- Vuetify is probably the best maintained and popular one
+
+<!-- .slide: data-background="yellow" -->
+- UI library
+- Material design
+- Quite complete
 
 
 <!-- .slide: data-background="yellow" -->
 https://vuetifyjs.com/en/
 
 
-<!-- .slide: data-background="yellow" -->
-TODO: Show Website
-https://vuetifyjs.com/en/components/api-explorer
+<!-- .slide: data-background-iframe="https://vuetifyjs.com/en/components/api-explorer" -->
 
 
 <!-- .slide: data-background="yellow" -->
@@ -218,13 +272,16 @@ NuxtJS is a Vue framework.
 
 
 <!-- .slide: data-background="yellow" -->
-It gives you:
 
 - Server Side Rendering (SSR)
 - Static site generation
 - Pre-defined configuration
 - Best-Practice Project Layout
 - Automatic code splitting
+
+
+<!-- .slide: data-background="yellow" -->
+https://nuxtjs.org/
 
 
 <!-- .slide: data-background="yellow" -->
@@ -235,6 +292,12 @@ _But I don't_ <!-- .element: class="fragment" -->
 
 <!-- .slide: data-background="yellow" -->
 ## Read this!
+
+
+<!-- .slide: data-background="yellow" -->
+JavaScript ES6+ changes
+
+E.g: https://www.w3schools.com/js/js_es6.asp
 
 
 <!-- .slide: data-background="yellow" -->

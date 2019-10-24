@@ -16,32 +16,45 @@ body {
   font-size: 5vh;
 }
 
+
+/* https://github.com/hakimel/reveal.js/issues/180#issuecomment-9435021 */
+.reveal .slides {
+  height: 100%;
+  top: 0;
+  margin-top: 0;
+}
+.reveal .slides>section {
+  min-height: 90%;
+}
+.reveal .slides>section>section {
+  min-height: 100%;
+}
+
+
+
 .reveal pre,
 .reveal pre code {
     box-sizing: border-box;
-}
-.reveal pre {
     box-shadow: none;
-    display: block;
-    margin: 1em auto;
-    text-align: center;
-    width: 90vw;
-    height: 84vh;
 }
-.reveal pre code {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    max-width: 100%;
-    max-height: 100%;
-    padding: 2em;
-    text-align: left;
+.reveal .full,
+.reveal .full pre,
+.reveal .full code {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0;
+}
+.reveal .full code {
+  padding: 1rem;
+  overflow: auto;
 }
 
-.reveal code {
+.reveal li code {
   background: lightgrey;
   border-radius: 0.5em;
-  padding: 0.1em;
+  padding: 0.1em 0.2em;
   margin: 0 0.1em;
 }
 

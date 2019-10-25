@@ -332,52 +332,38 @@ https://vuex.vuejs.org/guide/
 A code walk through
 
 
+<!-- .slide: data-background="blue" -->
 ## Overview
 
-TODO: folder structure
-
-
-## Vue Router
-
-- Route to specific views
-- Route to ViewFactory
-
-
-## Vuex Store
-
-- Reactive store, like redux
-- Follows specific pattern:
-    - State and getters or attribute access
-    - Commits for changing attributes
-    - Dispatcher for asynchronous changes
-
-
-## Vue components
-
-- Views = components
-
-
-## Form elements
-
-
-## Directives, Filters, Plugins
+- Folder structure
+- Router
+- Store
+- Components
+- Directives
+- Filters
+- Plugins
 
 
 
 
 <!-- .slide: data-background="fuchsia" -->
-# What about volto
-
-## What is volto
-
-Volto is a full-featured frontend with the goal to replace the Plone frontend as we know it.
+# React/Volto or Vue?
 
 
-## Comparison to my approach
+<!-- .slide: data-background="fuchsia" -->
+Volto: Complete Plone Frontend.
 
-- vue-plone is a simple, lean framework to get you started.
-- It doesn't replace the Plone frontend with all its functionality.
-- It's a powerful alternative to server side page template rendering.
+
+<!-- .slide: data-background="fuchsia" -->
+There is nothing similar in Vue yet.
+
+
+<!-- .slide: data-background="fuchsia" -->
+Vue for custom applications on top of Plone.
+
+
+<!-- .slide: data-background="fuchsia" -->
+Matter of taste and experience.
 
 
 

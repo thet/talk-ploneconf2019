@@ -30,7 +30,16 @@ body {
   min-height: 100%;
 }
 
-
+/* https://stackoverflow.com/questions/14068103/disable-antialising-when-scaling-images */
+.antiantialias { 
+    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: pixelated; /* Chrome */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+}
 
 .reveal pre,
 .reveal pre code {
@@ -73,11 +82,13 @@ section[data-background="yellow"] a {
     color: black;
 }
 
+/*
 .slides {
     background-image: url('./imgs/programmatic-logo-w-200.png');
     background-position: top right;
     background-repeat: no-repeat;
 }
+*/
 
 h1 {
   line-height: 1em;

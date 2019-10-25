@@ -1,4 +1,4 @@
-<!-- .slide: data-background="darkgreen" -->
+<!-- .slide: data-background="green" -->
 # $ whoami
 
 
@@ -7,84 +7,31 @@
 - Graz / Austria
 
 
-<!-- .slide: data-background="lime" -->
-- programmatic
-- BlueDynamics Alliance Memeber
+<!-- .slide: data-background="green" -->
+<img alt="Syslab Logo" title="Syslab.com" style="width: 60%; height: auto" src="./resources/imgs/Logo_SYSLAB_ohneClaim_white_1c.svg" />
+
+
+<!-- .slide: data-background="green" -->
+<img alt="programmatic Logo" title="programmatic.pro" class="antiantialias" style="width: 60%; height: auto" src="./resources/imgs/programmatic-logo-w-200.png" />
+
+
+<!-- .slide: data-background="green" -->
+<img alt="BlueDynamics Logo" title="bluedynamics.com" style="width: 60%; height: auto" src="./resources/imgs/bdan-logo4.svg" />
+
+
+<!-- .slide: data-background="green" -->
+- Plone Foundation Member
 - Former Plone Framework Team Member
-- Since recently: Syslab.com
 
 
-<!-- .slide: data-background="darkgreen" -->
+<!-- .slide: data-background="green" -->
 - [https://github.com/thet](https://github.com/thet)
 - [https://twitter.com/thetetet](https://twitter.com/thetetet)
-- [http://programmatic.pro](http://programmatic.pro)
 
 
-<!-- .slide: data-background="darkgreen" -->
+<!-- .slide: data-background="green" -->
 - [https://thet.github.io/talk-ploneconf2019](https://thet.github.io/talk-ploneconf2019)
 - [https://github.com/thet/talk-ploneconf2019](https://github.com/thet/talk-ploneconf2019)
-
-
-
-
-<!-- .slide: data-background="green" -->
-# Project "Empower Net"
-
-
-<!-- .slide: data-background="green" -->
-Organization to help victims in defamation cases.
-
-
-<!-- .slide: data-background="green" -->
-Offline Space
-Online Space
-
-
-<!-- .slide: data-background="green" -->
-A case is described,
-analysed,
-strategies are developed,
-actions defined
-and finally evaluated.
-
-
-<!-- .slide: data-background="green" -->
-Roles:
-
-- Clients
-- Coordinators
-- Experts
-
-
-<!-- .slide: data-background="green" -->
-## More Info
-
-https://empower-net.at/
-
-
-
-
-# Online Platform
-
-
-## Environment Analysis
-
-A few tools available, none fit our use case
-
-
-## Why Plone
-
-- Fine grained security
-- Powerful workflows
-- Hierarchical content
-- Instance behaviors (actually not used)
-- Own experience
-
-
-## Why Vue
-
-- Existing experience
-- Experiment with new approach
 
 
 
@@ -141,7 +88,7 @@ Vue can substitue all your views
 
 
 <!-- .slide: data-background="yellow" -->
-Install Vue CLI - https://cli.vuejs.org/
+Install Vue CLI https://cli.vuejs.org/
 
 ``yarn add @vue/cli``
 
@@ -285,12 +232,6 @@ https://nuxtjs.org/
 
 
 <!-- .slide: data-background="yellow" -->
-You should consider using it!
-
-_But I don't_ <!-- .element: class="fragment" -->
-
-
-<!-- .slide: data-background="yellow" -->
 ## Read this!
 
 
@@ -326,6 +267,72 @@ https://vuex.vuejs.org/guide/
 
 
 
+<!-- .slide: data-background="fuchsia" -->
+# About the project "Empower Net"
+
+
+<!-- .slide: data-background="fuchsia" -->
+Organization to help victims in defamation cases.
+
+
+<!-- .slide: data-background="fuchsia" -->
+Offline Space
+Online Space
+
+
+<!-- .slide: data-background="fuchsia" -->
+A case is described,
+analysed,
+strategies are developed,
+actions defined
+and finally evaluated.
+
+
+<!-- .slide: data-background="fuchsia" -->
+Roles:
+
+- Clients
+- Coordinators
+- Experts
+
+
+<!-- .slide: data-background="fuchsia" -->
+## More Info
+
+https://empower-net.at/
+
+
+
+
+<!-- .slide: data-background="cyan" -->
+# Online Platform
+
+
+<!-- .slide: data-background="cyan" -->
+## Environment Analysis
+
+A few tools available, none fit our use case
+
+
+<!-- .slide: data-background="cyan" -->
+## Why Plone
+
+- Fine grained security
+- Powerful workflows
+- Hierarchical content
+- Instance behaviors (actually not used)
+- Own experience
+
+
+<!-- .slide: data-background="cyan" -->
+## Why Vue
+
+- Existing experience
+- Experiment with new approach
+
+
+
+
 <!-- .slide: data-background="blue" -->
 # Implementation
 
@@ -344,25 +351,53 @@ A code walk through
 - Plugins
 
 
+<!-- .slide: data-background="blue" -->
+Vue frontend:
+https://github.com/thet/bda-empower
 
 
-<!-- .slide: data-background="fuchsia" -->
+<!-- .slide: data-background="blue" -->
+Plone backend:
+https://github.com/thet/bda.empower
+
+
+
+
+<!-- .slide: data-background="green" -->
+# Future
+
+
+<!-- .slide: data-background="green" -->
+vue-plone SDK?
+
+
+<!-- .slide: data-background="green" -->
+Tests?
+
+
+<!-- .slide: data-background="green" -->
+Vue.js 3?
+
+
+
+
+<!-- .slide: data-background="yellow" -->
 # React/Volto or Vue?
 
 
-<!-- .slide: data-background="fuchsia" -->
+<!-- .slide: data-background="yellow" -->
 Volto: Complete Plone Frontend.
 
 
-<!-- .slide: data-background="fuchsia" -->
+<!-- .slide: data-background="yellow" -->
 There is nothing similar in Vue yet.
 
 
-<!-- .slide: data-background="fuchsia" -->
+<!-- .slide: data-background="yellow" -->
 Vue for custom applications on top of Plone.
 
 
-<!-- .slide: data-background="fuchsia" -->
+<!-- .slide: data-background="yellow" -->
 Matter of taste and experience.
 
 
@@ -378,5 +413,3 @@ Thank You!
 
 <!-- .slide: data-background="darkviolet" -->
 # Ask your questions.
-
-

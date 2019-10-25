@@ -225,6 +225,7 @@ NuxtJS is a Vue framework.
 - Pre-defined configuration
 - Best-Practice Project Layout
 - Automatic code splitting
+- Automatic routing
 
 
 <!-- .slide: data-background="yellow" -->
@@ -247,6 +248,9 @@ The Vue guide (a must read)
 https://vuejs.org/v2/guide
 
 
+<!-- .slide: data-background-iframe="https://vuejs.org/v2/guide/" -->
+
+
 <!-- .slide: data-background="yellow" -->
 Vue API documentation
 
@@ -259,10 +263,16 @@ Vuex Guide
 https://vuex.vuejs.org/guide/
 
 
+<!-- .slide: data-background-iframe="https://vuex.vuejs.org/guide/" -->
+
+
 <!-- .slide: data-background="yellow" -->
 Router Guide
 
 https://vuex.vuejs.org/guide/
+
+
+<!-- .slide: data-background-iframe="https://router.vuejs.org/guide/" -->
 
 
 
